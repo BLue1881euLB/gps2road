@@ -1,0 +1,16 @@
+name: gps_proj
+channels:
+- conda-forge
+- anaconda
+- defaults
+dependencies:
+- python=3.6
+- beautifulsoup4
+- fiona
+- geopy
+- pandas
+- numpy
+- rtree
+- shapely
+- geopandas
+- lxml

@@ -1,0 +1,14 @@
+# R-tree search radius in meters
+search_radius: 0.25
+
+# path msg topic name
+path_topic: "route_points"
+
+# input odometry topic name
+odometry_topic: "gps/odometry"
+
+# output odometry topic name
+published_topic: "ada/projected_odometry"
+
+# goal status msg topic name
+goal_topic: "ada/goal_status"

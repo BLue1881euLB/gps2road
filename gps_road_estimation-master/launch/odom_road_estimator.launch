@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <!-- run gps road estimation node -->
+  <node pkg="gps_road_estimation" type="map_match_node.py" name="road_estimation" output="screen">
+	  <rosparam command="load" file="$(find gps_road_estimation)/params/road_estimation.yaml" />
+  </node>
+
+</launch>
